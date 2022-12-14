@@ -7,12 +7,8 @@ function App() {
     <div className="App">
         <Navbar/>
         <div className='container'>
-          <div className='row'>
             <Muestra/> 
-          </div>
-           
-        </div>
-             
+          </div>            
     </div>
   );
 }

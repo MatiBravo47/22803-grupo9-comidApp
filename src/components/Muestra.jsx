@@ -18,10 +18,10 @@ function Muestra() {
     console.log(data)
   }
   return (
-    <div>
+    <div className='row'>
       {recetas.map((recipe) => {
         return (
-
+        <div className='col-4'>
           <div class="card">
             <img src={recipe.image} class="card-img-top" alt="..."/>
             <div class="card-body">
@@ -29,6 +29,7 @@ function Muestra() {
             <a href="#" class="btn btn-primary">Go to recipe</a>
             </div>
           </div>
+        </div>
         )
       })}
     </div>
