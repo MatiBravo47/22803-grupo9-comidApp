@@ -21,6 +21,7 @@ function Muestra() {
     <div>
       {recetas.map((recipe) => {
         return (
+
           <div class="card">
             <img src={recipe.image} class="card-img-top" alt="..."/>
             <div class="card-body">

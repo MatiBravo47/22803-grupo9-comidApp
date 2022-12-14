@@ -6,7 +6,13 @@ function App() {
   return (
     <div className="App">
         <Navbar/>
-        <Muestra/>       
+        <div className='container'>
+          <div className='row'>
+            <Muestra/> 
+          </div>
+           
+        </div>
+             
     </div>
   );
 }
