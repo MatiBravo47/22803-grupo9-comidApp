@@ -1,12 +1,18 @@
 <h1 align="center"> ComidApp </h1>
 
-## Descripcion proyecto 
+## Descripcion proyecto
+
+Pagina web de recetas, utilizando la API "spoonacular". 
 
 ## Estado del proyecto
 
 :construction: Proyecto en construcción :construction:
 
 ## :hammer:Funcionalidades del proyecto
+
+- Login con Firebase 
+- Uso de API
+- Formularios de contacto
 
 ## 🛠️ Abre y ejecuta el proyecto
 
@@ -22,6 +28,7 @@
 - Bootstrap 
 - React.js
 - React-router
+- API: spoonacular
 
 
 
