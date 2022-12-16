@@ -1,6 +1,4 @@
 import React from 'react'
-import "./Formulario_contacto.css"
-import { Link, useParams } from "react-router-dom"
 
 import { useForm, ValidationError } from '@formspree/react';
 function ContactForm() {
@@ -45,9 +43,9 @@ function ContactForm() {
         </form>
     );
 }
-function App() {
+function Formulario() {
     return (
         <ContactForm />
     );
 }
-export default App;
+export default Formulario ;
