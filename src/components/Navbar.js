@@ -1,4 +1,6 @@
 import './Navbar.css'
+import { NavLink } from 'react-router-dom'
+
 const Navbar = () => {
     return (
         <>
@@ -23,8 +25,8 @@ const Navbar = () => {
                                     Buscar
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Vegetarianas</a></li>
-                                    <li><a class="dropdown-item" href="#">Libre de gluten</a></li>
+                                    <li class="dropdown-item"> <NavLink to={'/Formulario_contacto'} > Vegetarianas </NavLink > </li>
+                                    <li> <a class="dropdown-item" href="#">Libre de gluten</a></li>
                                     <li><a class="dropdown-item" href="#">Costo bajo</a></li>
 
                                     <li><hr class="dropdown-divider" /></li>
