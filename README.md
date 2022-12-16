@@ -11,7 +11,7 @@
 ## 🛠️ Abre y ejecuta el proyecto
 
 - `git clone https://github.com/MatiBravo47/22803-grupo9-APIRecetas.git`
-- `CD 22803-grupo9-APIRecetas`
+- `CD 22803-grupo9-comidApp`
 - `npm i`
 - `npm start` 
 
