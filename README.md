@@ -1,4 +1,4 @@
-<h1 align="center"> Titulo App </h1>
+<h1 align="center"> ComidApp </h1>
 
 ## Descripcion proyecto 
 
