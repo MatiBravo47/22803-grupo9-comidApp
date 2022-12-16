@@ -31,6 +31,7 @@ npm start
 - React.js
 - React-router
 - API: spoonacular
+- fontawesome
 
 
 
