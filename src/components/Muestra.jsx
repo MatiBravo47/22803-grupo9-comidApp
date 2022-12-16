@@ -2,6 +2,8 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import { findRenderedComponentWithType } from 'react-dom/test-utils';
 import './Muestra.css';
+
+
 function Muestra() {
 
   const [recetas, setRecetas] = useState([]);
