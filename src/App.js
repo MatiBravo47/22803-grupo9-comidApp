@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Muestra from './components/Muestra';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
     <div className="App">
       <Navbar />
       <div className='container'>
-        <Muestra />
 
       </div>
 
