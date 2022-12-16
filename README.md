@@ -16,10 +16,12 @@ Pagina web de recetas, utilizando la API "spoonacular".
 
 ## 🛠️ Abre y ejecuta el proyecto
 
-- `git clone https://github.com/MatiBravo47/22803-grupo9-comidApp.git`
-- `CD 22803-grupo9-comidApp`
-- `npm i`
-- `npm start`
+```bash 
+git clone https://github.com/MatiBravo47/22803-grupo9-comidApp.git
+CD 22803-grupo9-comidApp`
+npm i
+npm start
+```
 
 ## Tecnologías utilizadas
 
