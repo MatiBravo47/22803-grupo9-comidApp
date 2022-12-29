@@ -1,17 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 .footer{
-    background-color: #212121;
+    background: rgb(33,33,33);
+    background: linear-gradient(360deg, rgba(33,33,33,1) 5%, rgba(88,88,88,1) 73%, rgba(56,56,56,1) 89%);
     text-align: center;
     display:flex;
     align-content: center;
     justify-content: center;
+    font-family: 'Courgette', cursive;
 }
 
-.container {
-    background-color: #212121;
-    color: #d7d7d7;
-    margin-top: 20px;
-    padding-top: 20px;
-}
+
 
 /*.grid {
     background-color: #585858;
@@ -34,28 +33,43 @@ ul{
 
 
 .grid {
-    background-color: #585858b4;
     
-    border-radius: 20px;
-    font-weight: 400;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-top: 30px;
+    max-width: 900px;
+    font-weight: 800;
     display: grid;
     grid-template-columns: 1fr repeat(1, 1fr);
-    grid-template-rows: 1fr 4fr repeat(1, 1fr);
-    grid-column-gap:0px;
-    grid-row-gap: 0px;
+    grid-template-rows: 1fr 1fr repeat(1, 1fr);
     font-size: 16px;
-    gap: 20px;
+    height: 300px;
+    box-shadow: 0px 35px 68px 0px rgba(0, 0, 0, 0.5), inset 0px -12px 16px 0px rgba(5, 5, 5, 0.6), inset 0px 11px 28px 0px rgb(0, 0, 0);
+    background-color: #585858;
+    border-radius: 10px 10px 50px 50px;
+    border: 3px outset #ff8946;
+    backdrop-filter: blur(6px);
+    
     }
     
 .gridhead { 
     display: grid;
-    grid-area: 1 / 1 / 2 / 6; 
-    text-align:right;
-    margin-right: 150px;
+    grid-area: 2 / 2 / 2 / 2; 
     color: #ff8946;
 }
 
-img{
-    width: 200px;
-    height: 200px;
+.imgf{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.imgf:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec741e8a;
+    transition:all .5s ease-in-out;
+    
 }

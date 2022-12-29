@@ -1,17 +1,17 @@
 import './Navbar.css'
 import { Link, BrowserRouter, Route, Routes } from 'react-router-dom'
 import Formulario from '../Pages/Formulario'
-import Muestra from './Muestra'
+import logoani from '../img/logoani.gif';
 
 const Navbar = () => {
     return (
         <BrowserRouter>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark" style={{ maxHeight: '100px' }} navbarScroll>
                 <div className="container-fluid">
                     <Link className="navbar-brand" to='/home'>
-                        <i class="fa-solid fa-utensils"></i><span className='logo'>ComidApp</span>
+                        <img src={logoani} className='logo' alt='logo'></img> <span>ComidApp</span>
                     </Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -41,9 +41,9 @@ const Navbar = () => {
                 </div>
             </nav>
                 <Routes>
-                    <Route path="/" element={<Muestra/>} />
+                    
                     <Route path="/Formulario" element={<Formulario/>} />
-                    <Route path="/home" element={<Muestra/>} />
+                    <Route path="/home" />
                 </Routes>
         </BrowserRouter>
     )

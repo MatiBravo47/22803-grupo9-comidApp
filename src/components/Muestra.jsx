@@ -13,7 +13,7 @@ function Muestra() {
 
   const getRecetas = async () => {
     const api = await fetch(
-      `https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=9`
+      `https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=8`
     );
     const data = await api.json();
     setRecetas(data.recipes)
@@ -33,7 +33,7 @@ function Muestra() {
                 <div className='text-center m-2'>
                   <div className='btn div-minutes p-0 m-0 text-center'><i class="fa-regular fa-clock"></i>{recipe.readyInMinutes}min</div>
                 </div>
-                <div className='text-center'><a href="#" class="btn btn-primary">Ver la receta</a></div>
+                <div className='text-center'><a href="/muestra" class="btn btn-primary">Ver la receta</a></div>
               </div>
             </div>
           </div>
