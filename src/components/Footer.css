@@ -10,23 +10,6 @@
     font-family: 'Courgette', cursive;
 }
 
-
-
-/*.grid {
-    background-color: #585858;
-    gap: 15px;
-    margin: auto;
-    border-radius: 20px;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: start;
-    display: grid;
-    grid-template: repeat(1, 5fr) / repeat(1, 5fr);
-    grid-auto-flow: column;
-}*/
-
-
-
 ul{
     list-style: none;
 }
@@ -46,7 +29,8 @@ ul{
     font-size: 16px;
     height: 300px;
     box-shadow: 0px 35px 68px 0px rgba(0, 0, 0, 0.5), inset 0px -12px 16px 0px rgba(5, 5, 5, 0.6), inset 0px 11px 28px 0px rgb(0, 0, 0);
-    background-color: #585858;
+    /*background-color: #585858;*/
+    background-image: url(/src/img/bgmuestra2.jpg);
     border-radius: 10px 10px 50px 50px;
     border: 3px outset #ff8946;
     backdrop-filter: blur(6px);

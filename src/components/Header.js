@@ -6,12 +6,12 @@ const Header = () => {
        <div className='header' >
         <div className='headcontainer'>
             <div className='info'>
+            {/*------------------Uso de Animate.css--------*/}
             <h1 class="animate__animated animate__backInLeft">Encuentre todas las recetas que necesite.</h1>
             </div>
             <div className='img'>
             <img className='cheff' src={cheff} alt='cheff' ></img>
             </div>
-
         </div>
 
        </div>
