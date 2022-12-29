@@ -3,6 +3,8 @@ import { Link, BrowserRouter, Route, Routes } from 'react-router-dom'
 import Formulario from '../Pages/Formulario'
 import logoani from '../img/logoani.gif';
 
+/*-------------------Navbar BOOTSTRAP----------------*/
+
 const Navbar = () => {
     return (
         <BrowserRouter>

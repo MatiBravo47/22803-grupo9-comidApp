@@ -20,7 +20,7 @@ const Footer = () => {
                         <p>ComidApp<br/>2022</p>
                     </div>
 
-
+                    {/*--------Comienzo Carousel ReactBootstrap------*/}
                     <div>
                         <Carousel>
                             <Carousel.Item>
@@ -90,7 +90,7 @@ const Footer = () => {
                         </Carousel>
                     </div>
                 </div>
-                <p> Creado con <a href="https://es.reactjs.org/">React</a>, <a href="https://sweetalert2.github.io/">SweetAlert</a>, <a href="https://getbootstrap.com/">Bootstrap</a>, <a href="https://firebase.google.com/?hl=es">Firebase</a>.</p>
+                <p> Creado con <a href="https://es.reactjs.org/" target="_blank" without rel="noreferrer">React</a>, <a href="https://sweetalert2.github.io/" target="_blank" without rel="noreferrer">SweetAlert</a>, <a href="https://getbootstrap.com/" target="_blank" without rel="noreferrer">Bootstrap</a>, <a href="https://firebase.google.com/?hl=es" target="_blank" without rel="noreferrer">Firebase</a>.</p>
             </div>
 
         </div>
