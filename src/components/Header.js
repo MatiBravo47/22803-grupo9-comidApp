@@ -6,9 +6,7 @@ const Header = () => {
        <div className='header' >
         <div className='headcontainer'>
             <div className='info'>
-            <h1>Encuentre todas las recetas que necesite.</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-            
+            <h1 class="animate__animated animate__backInLeft">Encuentre todas las recetas que necesite.</h1>
             </div>
             <div className='img'>
             <img className='cheff' src={cheff} alt='cheff' ></img>

@@ -1,10 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 .div-minutes{
     background-color: #DC9D47;
     color: black;
+    
 }
 .row{
     background-color: #383838;
+    margin: auto;
+    max-width: 70%;
 }
 .bg-dark{
     background-color: #383838
+}
+
+.card{
+    font-family: 'Courgette', cursive;
+    margin-top: 20px;
+    backdrop-filter: blur(7px);
+    background-image: url(/src/img/cardback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 41px;
+    box-shadow: 0px 35px 68px 0px rgba(39, 40, 40, 0.5), inset 0px -12px 16px 0px rgba(39, 40, 40, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    overflow:hidden;
+}
+
+.card:hover{
+    -webkit-transform:scale(1);transform:scale(1.1);
+    transition:all .5s ease-in-out;
+    box-shadow: 0px 0px 15px 15px #ffffff83;
+    -webkit-box-shadow: 0px 0px 15px 15px #f5f2ef8a;
+}
+
+.card-img-top{
+    border-top-left-radius: 41px;
+    border-top-right-radius: 41px;
 }
