@@ -1,35 +1,48 @@
-import React from 'react'
-
+import React from 'react';
+import './Formulario_contacto.css';
+import Swal from 'sweetalert2';
 import { useForm, ValidationError } from '@formspree/react';
+
+//con opción de TYPE  //tipos de popups: error, success, warning, info, question
+const showAlert = () => {
+    Swal.fire('Mensaje enviado correctamente','te responderemos en 24 horas!');
+    }
+
+
 function ContactForm() {
     const [state, handleSubmit] = useForm("xgebwegv");
     if (state.succeeded) {
-        return <p>Te responderemos en 24 horas!</p>;
+        return;
     }
     return (
         <form onSubmit={handleSubmit}>
-            <label htmlFor="email" width="90rem">
+            <label class="mt-3" htmlFor="email" width="500px">
                 Correo electrónico
             </label>
             <br></br>
             <br></br>
-            <input
+            <input class="form-label"
                 id="email"
                 type="email"
                 name="email"
                 width="90rem"
-            />
+            required/>
             <ValidationError
                 prefix="Email"
                 field="email"
                 errors={state.errors}
             />
             <br></br>
-
-            <textarea
+            <label class="textarea mt-3" htmlFor="email" width="500px" placeholder="Required example textarea">
+                
+                Comentario
+            </label>
+            <br></br>
+            <br></br>
+            <textarea class="form-label"
                 id="message"
                 name="message"
-            />
+            required/>
             <ValidationError
                 prefix="Message"
                 field="message"
@@ -37,9 +50,11 @@ function ContactForm() {
             />
             <br></br>
 
-            <button type="submit" disabled={state.submitting}>
-                Enviar
+            <button onClick={showAlert} class="btn btn-primary mb-3" type="submit" disabled={state.submitting}> 
+            Enviar 
+            
             </button>
+            
         </form>
     );
 }
