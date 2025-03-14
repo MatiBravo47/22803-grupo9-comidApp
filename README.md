@@ -18,7 +18,7 @@ Pagina web de recetas, utilizando la API "spoonacular".
 
 ```bash 
 git clone https://github.com/MatiBravo47/22803-grupo9-comidApp.git
-CD 22803-grupo9-comidApp`
+CD 22803-grupo9-comidApp
 npm i
 npm start
 ```
